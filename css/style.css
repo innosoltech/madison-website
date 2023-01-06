@@ -537,20 +537,15 @@ header a {
 }
 
 #about-page {
-  /* background-color: black; */
-  background-image: url("/images/3.png");
+  background-image: url("../images/3.png");
 }
 
 #about-page button {
   margin-bottom: 30px;
 }
 
-#about-page img {
-}
-
 .about {
   background: rgba(0, 0, 0, 0.9);
-  /* opacity: 0.9; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -562,6 +557,7 @@ header a {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .about h1,
 .about p {
   color: white;
