@@ -537,7 +537,7 @@ header a {
 }
 
 #about-page {
-  background-image: url("/images/about-image-6.jpeg");
+  background-image: url(../images/pic1.jpeg);
 }
 
 #about-page button {
