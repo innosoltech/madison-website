@@ -11,15 +11,6 @@
     $(".navbar-collapse").collapse("hide");
   });
 
-  // Owl Carousel
-  $(".owl-carousel").owlCarousel({
-    autoplayTimeout: 8000,
-    animateOut: "fadeOut",
-    items: 1,
-    loop: true,
-    autoplay: true,
-  });
-
   // PARALLAX EFFECT
   $.stellar();
 
@@ -39,6 +30,65 @@
     });
   });
 
+  // $("owl-one").owlCarousel({
+  //   autoplay: true,
+  //   autoplayTimeout: 8000,
+  //   animateOut: "fadeOut",
+  //   items: 1,
+  //   loop: true,
+  // });
+
+  // $(".owl-two").owlCarousel({
+  //   margin: 10,
+  //   nav: true,
+  //   autoplay: true,
+  //   autoplayTimeout: 2000,
+  //   loop: true,
+  //   responsive: {
+  //     0: {
+  //       items: 1.35,
+  //     },
+  //     600: {
+  //       items: 3.35,
+  //     },
+  //     1000: {
+  //       items: 5.35,
+  //     },
+  //   },
+  // });
+
   // WOW ANIMATION
   new WOW({ mobile: false }).init();
 })(jQuery);
+
+// Owl Carousel
+$(document).ready(function () {
+  $(".owl-two").owlCarousel({
+    margin: 10,
+    // nav: true,
+    dots: true,
+    dotsEach: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1.65,
+      },
+      600: {
+        items: 3.35,
+      },
+      1000: {
+        items: 5,
+      },
+    },
+  });
+
+  $(".owl-one").owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 8000,
+    animateOut: "fadeOut",
+    items: 1,
+    loop: true,
+  });
+});
