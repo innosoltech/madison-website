@@ -585,6 +585,7 @@ header a {
   overflow: hidden;
   cursor: pointer;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .about-info h2,

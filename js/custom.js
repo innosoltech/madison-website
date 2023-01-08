@@ -30,33 +30,6 @@
     });
   });
 
-  // $("owl-one").owlCarousel({
-  //   autoplay: true,
-  //   autoplayTimeout: 8000,
-  //   animateOut: "fadeOut",
-  //   items: 1,
-  //   loop: true,
-  // });
-
-  // $(".owl-two").owlCarousel({
-  //   margin: 10,
-  //   nav: true,
-  //   autoplay: true,
-  //   autoplayTimeout: 2000,
-  //   loop: true,
-  //   responsive: {
-  //     0: {
-  //       items: 1.35,
-  //     },
-  //     600: {
-  //       items: 3.35,
-  //     },
-  //     1000: {
-  //       items: 5.35,
-  //     },
-  //   },
-  // });
-
   // WOW ANIMATION
   new WOW({ mobile: false }).init();
 })(jQuery);
