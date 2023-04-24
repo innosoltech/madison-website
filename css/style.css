@@ -198,6 +198,7 @@ a:focus {
   /* background-image: url(/images/RuleofLaw.jpg); */
   /* background-color: rgb(235, 224, 224); */
   position: relative;
+  margin-bottom: 50px;
 }
 
 #news,
@@ -706,9 +707,9 @@ header a {
   right: 15px;
 }
 
-iframe {
+/* iframe {
   margin-bottom: 10px;
-}
+} */
 
 #events-page::-webkit-scrollbar {
   background: #f1f1f1;
@@ -718,12 +719,12 @@ iframe {
   background: #4d4b4b;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   iframe {
     width: 380px;
     height: 242px;
   }
-}
+} */
 
 /*--------------- Photo Gallery -----------------*/
 #events-page img {
@@ -781,7 +782,7 @@ footer {
   padding-top: 80px;
   padding-bottom: 40px;
   background-color: #000305;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 footer h4 {
