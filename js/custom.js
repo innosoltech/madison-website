@@ -65,3 +65,8 @@ $(document).ready(function () {
     loop: true,
   });
 });
+
+// Footer year set to automatically change to the new year
+const element = document.getElementById("copyright-year");
+const year = new Date().getFullYear();
+element.innerHTML = year;
